@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<form action="https://formspree.io/marcinmika@hotmail.com" method='POST'> 
+    <form action="https://formspree.io/marcinmika@hotmail.com" method='POST'>
 
-<label for='firstname'> Imię </label><br>
-<input type="text" id='firstname'><br>
-<label for='lastname'>Nazwisko</label><br>
-<input type="text" id='lastname'><br>
-<label for='telefon'>Telefon</label> <br>
-<input type="tel" id="telefon"><br>
-<label for='miasto'>Miasto</label><br>
-<select id="miasto">
+        <label for='firstname'> Imię </label><br>
+        <input type="text" id='firstname'><br>
+        <label for='lastname'>Nazwisko</label><br>
+        <input type="text" id='lastname'><br>
+        <label for='telefon'>Telefon</label> <br>
+        <input type="tel" id="telefon"><br>
+        <label for='email'>Telefon</label> <br>
+        <input type="email" id="email"><br>
+        <label for='miasto'>Miasto</label><br>
+        <select id="miasto">
     <option value="value1">Kraków</option>
     <option value="value2" selected>Warszawa</option>
     <option value="value3">Gdańsk</option>
 </select> <br>
-<p>Płeć : </p>
-<input type="radio" id="man" value="man" ><label for="man">Mężczyzna</label> <br>
-<input type="radio" id="woman" value="woman"> <label for="woman">Kobieta</label> <br>
-<input type="radio" id="other" value="other"> <label for="other">Inna</label> <br>
-<label for='zgoda'>Zgoda na przetwarzanie danych osobowych</label> <br>
-<input type="checkbox" id="zgoda" value="Zgoda"> Wyrażam zgodę <br>
-<p>Wiadomość</p>
-<textarea id="opis" maxlength="200"></textarea> <br>
-<button type='submit'>Wyślij</button>
+        <label for="man">Płeć :</label> <br><br>
+        <input type="radio" id="man" value="man"><label for="man">Mężczyzna</label> <br>
+        <input type="radio" id="woman" value="woman"> <label for="woman">Kobieta</label> <br>
+        <input type="radio" id="other" value="other"> <label for="other">Inna</label> <br><br>
+
+        <label for="opis">Wiadomość</label> <br>
+        <textarea id="opis" maxlength="200"></textarea> <br>
+        <input type="checkbox" id="zgoda" value="Zgoda">
+        <label for='zgoda'>Zgoda na przetwarzanie danych osobowych</label> <br> <br>
+        <button type='submit'>Wyślij</button> <br><br>
 
 
-</form>
+
+    </form>
 
 </body>
+
 </html>
